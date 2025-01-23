@@ -281,6 +281,13 @@ footer a:hover, a:active {
 }
 */
 /* -- End of Code for the Cookie Compliance popover window -- */
+.arther {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
 
 @media only screen and  (min-width:900px) {
  
