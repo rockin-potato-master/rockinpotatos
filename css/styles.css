@@ -80,10 +80,10 @@ header {
   	justify-content: center;
 }
 
-main, .bg-container {
-	width: 71%;
+/* main, .bg-container {
+	width: 99%;
 	margin: 20px auto;
-	}
+	} */
 
 main {
 	padding-top: 20px;
@@ -93,7 +93,7 @@ main {
 .content {
 	margin-left: auto;
  	margin-right: auto;
-  	width: 80%;
+  	width: 90%;
 }
 
 article img {
@@ -102,9 +102,22 @@ article img {
 	-moz-box-shadow: 3px 3px 7px #777;
 }
 
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.row > p {
+	margin-bottom: 3rem;
+}
+
 .image-container {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
+}
+
+.center-img-and-title > h3 {
+	text-align: center;
 }
 
 footer {
