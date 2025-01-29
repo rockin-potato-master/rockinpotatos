@@ -125,6 +125,12 @@ article img {
 	margin-left: 4rem;
 }
 
+.bad-potatos {
+	width: 55%;
+	position: relative;
+	left: 200px;
+}
+
 footer {
 	padding: 40px 0;
 	margin-top: 24px;
