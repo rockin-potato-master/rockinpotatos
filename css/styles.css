@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 h2, h3 {
 	line-height: 1;
-	margin: 40px 0;
+	margin: 10px 0;
 }
 h2 {
 	font-size: 24px;
@@ -45,13 +45,19 @@ nav {
 }
 
 /*  Places the content image in the bg with the headings on top  */
+header {
+	padding-top: 2rem;
+	background-color: darkred;
+	padding-bottom: 0.5rem;
+}
+
 .header-bg-wrap {
   	overflow: hidden;
   	position: relative;
 }
 
 .header-bg-image {
-  	opacity: 0.25;
+  	/* opacity: 0.25; */
   	position: absolute;
   	left: 0;
   	top: 0;
@@ -59,9 +65,15 @@ nav {
   	height: auto;
 }
 
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .header-content {
-	height: 46.296vh; /* Roughly 500px of 1080px high screen */
- 	position: relative;
+ 	/* position: absolute;
+	top: 0; */
   	display: flex;
   	flex-direction: column;
   	align-items: center;
