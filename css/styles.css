@@ -113,22 +113,27 @@ article img {
 
 .image-container {
 	width: 90%;
-	margin: 0 auto;
+	margin: 1rem 0;
 }
 
 .center-img-and-title > h3 {
 	text-align: center;
 }
 
+.center-img-and-title {
+	width: 140%;
+}
+
 .image-v {
-	width: 50%;
-	margin-left: 4rem;
+	width: 55%;
 }
 
 .bad-potatos {
-	width: 55%;
-	position: relative;
-	left: 200px;
+	width: 110%;
+}
+
+.row:last-of-type {
+	gap: 1.5rem;
 }
 
 footer {
@@ -181,7 +186,7 @@ footer a:hover, a:active {
 	}
 
 	h3 {
-		font-size: 36px;
+		font-size: 2.25rem;
 	}
 
 	.outer-container {
