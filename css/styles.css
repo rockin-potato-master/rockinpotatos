@@ -71,6 +71,25 @@ header {
 	align-items: center;
 }
 
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+.potato-group-image {
+	display: none;
+}
+
+@media (max-width: 630px) {
+	.potato-group {
+		display: none;
+	}
+
+	.potato-group-image {
+		display: contents;
+	}
+}
+
 .header-content {
  	/* position: absolute;
 	top: 0; */
@@ -175,7 +194,7 @@ footer a:hover, a:active {
 	margin-right: 4rem;
 }
 
-@media only screen and  (min-width:900px) {
+@media (min-width:900px) {
 
 	nav {
 		width: 40%;
@@ -202,5 +221,15 @@ footer a:hover, a:active {
 	/* .w3-bar-item {
 		font-size: 36px;
 	} */
+}
 
+@media (max-width: 768px) {
+	.content > .row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+img {
+	/* width: 40%; */
 }
